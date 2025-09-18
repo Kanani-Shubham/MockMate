@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MockMate — Result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg-1: #f6f7fb;
+      --bg-2: #eef4ff;
+      --card: #ffffff;
+      --accent-1: #4f46e5;
+      --accent-2: #7c3aed;
+      --muted: #64748b;
+      --text: #0f172a;
+      --glass: rgba(15,23,42,0.04);
+      --radius: 14px;
+      --shadow-lg: 0 18px 50px rgba(16,24,40,0.08);
+      --shadow-sm: 0 6px 20px rgba(16,24,40,0.04);
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Poppins",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background: linear-gradient(180deg,var(--bg-1),var(--bg-2));
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px;
+      line-height:1.5;
+    }
+
+    .wrap{max-width:1200px;margin:28px auto;}
+    .grid{
+      display:grid;
+      grid-template-columns:360px 1fr;
+      gap:28px;
+      align-items:start;
+    }
+    @media(max-width:980px){
+      .grid{grid-template-columns:1fr;padding:0 12px}
+    }
+
+    /* Sidebar */
+    .sidebar{
+      position:relative;
+      padding:22px;
+      border-radius:16px;
+      background:linear-gradient(180deg, rgba(79,70,229,0.06), rgba(124,58,237,0.02));
+      border:1px solid rgba(79,70,229,0.06);
+      box-shadow:var(--shadow-sm);
+      display:flex;
+      flex-direction:column;
+      gap:18px;
+    }
+
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{
+      width:64px;height:64px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent-1),var(--accent-2));
+      color:white;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;
+      box-shadow:0 10px 30px rgba(79,70,229,0.14);
+    }
+    .heading{font-size:1.15rem;font-weight:700}
+    .sub{color:var(--muted);font-size:0.95rem}
+
+    .meta-list{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+    .meta-item{
+      background:var(--card);
+      border-radius:10px;padding:12px;border:1px solid var(--glass);
+      display:flex;justify-content:space-between;align-items:center;
+      transition:transform .15s ease,box-shadow .15s ease;
+    }
+    .meta-item:hover{transform:translateY(-4px);box-shadow:var(--shadow-sm)}
+    .meta-item .k{font-size:0.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.6px}
+    .meta-item .v{font-weight:700;color:var(--text);font-size:0.95rem}
+
+    .score-badge{
+      margin-top:8px;
+      background:linear-gradient(180deg,var(--accent-1),var(--accent-2));
+      color:white;border-radius:12px;padding:18px;text-align:center;
+      box-shadow:0 14px 40px rgba(79,70,229,0.12);
+      display:flex;flex-direction:column;align-items:center;gap:6px;
+    }
+    .score-badge .label{font-size:0.95rem;opacity:0.95}
+    .score-num{font-size:3.2rem;font-weight:800;line-height:1;margin:2px 0}
+    .score-sub{font-size:0.95rem;opacity:0.95}
+
+    /* Main content */
+    .main{display:flex;flex-direction:column;gap:18px}
+
+    .card{
+      background:var(--card);
+      border-radius:14px;
+      padding:20px;
+      box-shadow:var(--shadow-lg);
+      overflow:hidden;
+    }
+
+    .section{
+      background:var(--card);
+      border-radius:12px;
+      padding:18px;
+      border:1px solid var(--glass);
+      box-shadow:var(--shadow-sm);
+      transition:transform .18s ease, box-shadow .18s;
+    }
+    .section:hover{transform:translateY(-4px);box-shadow:0 20px 50px rgba(16,24,40,0.06)}
+
+    .section h3{margin:0 0 12px;color:#0b3a6f;font-size:1.15rem}
+    .list{display:flex;flex-direction:column;gap:10px}
+    .chip{background:#f8fafc;padding:10px 14px;border-radius:999px;color:var(--text);display:inline-block;font-weight:600}
+    .chip.good{background:linear-gradient(90deg,#ecfdf5,#bbf7d0);color:#065f46;border:1px solid rgba(6,95,70,0.06)}
+    .chip.bad{background:linear-gradient(90deg,#fff1f2,#fecaca);color:#7f1d1d;border:1px solid rgba(220,38,38,0.06)}
+    .feedback-item{padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff);border:1px solid var(--glass)}
+    .feedback-item p{margin:10;color:var(--text)}
+
+    .qa-pair{display:block;border-radius:10px;padding:16px;border:1px solid var(--glass);background:linear-gradient(180deg,#fff,#fbfdff);box-shadow:0 6px 20px rgba(2,6,23,0.03)}
+    .qa-q{font-weight:700;color:#0b3a6f;margin-bottom:8px}
+    .qa-a{background:#f8fafc;padding:12px;border-radius:8px;color:var(--text);white-space:pre-wrap}
+
+    /* utilities */
+    .muted{color:var(--muted);font-size:0.95rem}
+    .row{display:flex;gap:12px;align-items:center}
+    .spacer{flex:1}
+
+    /* small controls */
+    .actions{
+      display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:6px;
+    }
+    .btn{
+      padding:8px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:700;
+      background:#fff;border:1px solid var(--glass);box-shadow:var(--shadow-sm);
+    }
+    .btn.primary{background:linear-gradient(90deg,var(--accent-1),var(--accent-2));color:#fff;border:none}
+    .btn.ghost{background:transparent;border:1px solid rgba(15,23,42,0.06)}
+    .btn:active{transform:translateY(1px)}
+    
+    /* responsive tweaks */
+    @media(max-width:600px){
+      .logo{width:52px;height:52px}
+      .score-num{font-size:2.4rem}
+      .sidebar{padding:16px}
+      .section{padding:14px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="grid">
+      <aside class="sidebar" aria-labelledby="eval-title">
+        <div class="brand">
+          <div class="logo">MM</div>
+          <div>
+            <div id="eval-title" class="heading">Interview Evaluation</div>
+            <div class="sub">Personalized AI feedback</div>
+          </div>
+        </div>
+
+        <div class="meta-list" role="list">
+          <div class="meta-item" role="listitem">
+            <div class="k">Role</div>
+            <div class="v">{{ meta.get('role', 'Not specified') }}</div>
+          </div>
+          <div class="meta-item" role="listitem">
+            <div class="k">Position</div>
+            <div class="v">{{ meta.get('position', 'Not specified') }}</div>
+          </div>
+        </div>
+
+        <div class="score-badge" role="region" aria-label="Overall score">
+          <div class="label">Overall Performance</div>
+          {% if evaluation and evaluation.raw_evaluation %}
+            {% set eval_text = evaluation.raw_evaluation %}
+            {% if 'Overall Score:' in eval_text %}
+              {% set score = eval_text.split('Overall Score:')[1].split('/')[0].strip().replace('**', '') %}
+              <div class="score-num" aria-live="polite">{{ score }}</div>
+            {% else %}
+              <div class="score-num" aria-live="polite">0</div>
+            {% endif %}
+          {% else %}
+            <div class="score-num" aria-live="polite">0</div>
+          {% endif %}
+          <div class="score-sub">out of 100</div>
+
+          <div class="actions" role="toolbar" aria-label="Result actions">
+             <button class="btn" id="printReport" title="Print report">Print</button>
+             </div>
+        </div>
+      </aside>
+
+      <main class="main" aria-labelledby="report-heading">
+        <h2 id="report-heading" class="muted" style="margin:0 0 6px">Detailed Report</h2>
+
+        <section class="section" aria-labelledby="strengths-heading">
+          <h3 id="strengths-heading">💪 Key Strengths</h3>
+          <div class="list">
+            {% if evaluation and evaluation.raw_evaluation %}
+              {% set eval_text = evaluation.raw_evaluation %}
+              {% if 'Key Strengths:' in eval_text and ('Key Weaknesses:' in eval_text or 'Areas for Improvement:' in eval_text) %}
+                {% set strengths = eval_text.split('Key Strengths:')[1].split('Key Weaknesses:' if 'Key Weaknesses:' in eval_text else 'Areas for Improvement:')[0].strip().split('\n') %}
+                {% for strength in strengths %}
+                  {% if strength.strip() %}
+                    <div class="feedback-item">
+                      <div class="chip good">{{ strength.strip().lstrip('123456789.- ') }}</div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% else %}
+                <div class="feedback-item">Strengths information not available in expected format</div>
+              {% endif %}
+            {% else %}
+              <div class="feedback-item">No strengths data available</div>
+            {% endif %}
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="weaknesses-heading">
+          <h3 id="weaknesses-heading">🎯 Areas for Improvement</h3>
+          <div class="list">
+            {% if evaluation and evaluation.raw_evaluation %}
+              {% set eval_text = evaluation.raw_evaluation %}
+              {% if 'Key Weaknesses:' in eval_text %}
+                {% set weak_block = eval_text.split('Key Weaknesses:')[1] %}
+              {% elif 'Areas for Improvement:' in eval_text %}
+                {% set weak_block = eval_text.split('Areas for Improvement:')[1] %}
+              {% else %}
+                {% set weak_block = '' %}
+              {% endif %}
+
+              {% if weak_block %}
+                {% set weaknesses = weak_block.split('Tips' if 'Tips' in weak_block else 'Tips for Improvement:' if 'Tips for Improvement:' in eval_text else '\\n')[0].strip().split('\n') %}
+                {% for weakness in weaknesses %}
+                  {% if weakness.strip() %}
+                    <div class="feedback-item" style="border-left:4px solid rgba(220,38,38,0.08)">
+                      <div class="chip bad">{{ weakness.strip().lstrip('123456789.- ') }}</div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% else %}
+                <div class="feedback-item">Weaknesses information not available in expected format</div>
+              {% endif %}
+            {% else %}
+              <div class="feedback-item">No weaknesses data available</div>
+            {% endif %}
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="tips-heading">
+          <h3 id="tips-heading">💡 Tips to Improve</h3>
+          {% if evaluation and evaluation.raw_evaluation %}
+            {% set eval_text = evaluation.raw_evaluation %}
+            {% if 'Tips for Improvement:' in eval_text %}
+              {% set tips = eval_text.split('Tips for Improvement:')[1].split('Brief Feedback')[0] if 'Brief Feedback' in eval_text else eval_text.split('Tips for Improvement:')[1] %}
+              {% for tip in tips.strip().split('\n') %}
+                {% if tip.strip() %}
+                  <div class="feedback-item"><p>{{ tip.strip().lstrip('123456789.- ') }}</p></div>
+                {% endif %}
+              {% endfor %}
+            {% else %}
+              <div class="feedback-item">Tips information not available in expected format</div>
+            {% endif %}
+          {% else %}
+            <div class="feedback-item">No tips available</div>
+          {% endif %}
+        </section>
+
+        <section class="section" aria-labelledby="detail-heading">
+          <h3 id="detail-heading">📝 Detailed Feedback</h3>
+          {% if answers %}
+            {% for answer in answers %}
+              <div class="qa-pair" role="article" aria-label="Question and answer">
+                <div class="qa-q">Q:</div>
+                <div class="muted" style="margin-bottom:8px">
+                  {{ answer.question.strip().lstrip('123456789.- ') if answer.question else 'Question not available' }}
+                </div>
+                <div class="qa-a">A: {{ answer.answer if answer.answer else 'No answer provided' }}</div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class="qa-pair">No answers available</div>
+          {% endif %}
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    
+
+    document.getElementById('printReport')?.addEventListener('click', function(){
+      window.print();
+    });
+
+    document.getElementById('downloadJSON')?.addEventListener('click', function(){
+      const payload = {
+        meta: {{ meta|tojson }},
+        evaluation: {{ evaluation|tojson }},
+        answers: {{ answers|tojson }}
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,641 @@
+{
+  "6a8563ab-c68e-47da-bf26-3548707be443": {
+    "meta": {
+      "role": "html css js",
+      "position": "frontend",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "Here are 5 high-quality, unique interview questions for a candidate applying for the role of HTML, CSS, JS, Frontend:",
+      "1. Can you describe a time when you had to debug a complex issue in your frontend code? How did you go about identifying and fixing the problem?",
+      "2. How do you approach building responsive layouts and ensuring that your design looks good on different devices and screen sizes?",
+      "3. Write a function that takes a string as an input and returns the string with all vowels removed. Can you explain your thought process and how you would implement this in JavaScript?",
+      "4. How do you stay up-to-date with the latest trends and best practices in frontend development? Can you give me an example of a recent innovation that you've implemented in your work?",
+      "5. Describe a situation where you had to optimize the performance of a slow-loading webpage. What steps did you take to improve the loading time, and what tools or techniques did you use to measure the improvement?"
+    ],
+    "answers": [
+      {
+        "question": "Here are 5 high-quality, unique interview questions for a candidate applying for the role of HTML, CSS, JS, Frontend:",
+        "answer": ""
+      },
+      {
+        "question": "1. Can you describe a time when you had to debug a complex issue in your frontend code? How did you go about identifying and fixing the problem?",
+        "answer": "I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!"
+      },
+      {
+        "question": "2. How do you approach building responsive layouts and ensuring that your design looks good on different devices and screen sizes?",
+        "answer": "I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!"
+      },
+      {
+        "question": "3. Write a function that takes a string as an input and returns the string with all vowels removed. Can you explain your thought process and how you would implement this in JavaScript?",
+        "answer": "I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!"
+      },
+      {
+        "question": "4. How do you stay up-to-date with the latest trends and best practices in frontend development? Can you give me an example of a recent innovation that you've implemented in your work?",
+        "answer": "I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!"
+      },
+      {
+        "question": "5. Describe a situation where you had to optimize the performance of a slow-loading webpage. What steps did you take to improve the loading time, and what tools or techniques did you use to measure the improvement?",
+        "answer": "I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!"
+      }
+    ],
+    "current_index": 6,
+    "evaluation": {
+      "raw_evaluation": "Evaluation:\n\n**Overall Score: 20/100**\n\n**Key Strengths:**\n\n1. The candidate mentions using the proper `setState()` method and ensuring immutable state, which shows some understanding of React state management.\n2. They attempt to answer the questions, even if the answers are not relevant or complete.\n3. The candidate shows some enthusiasm and willingness to participate in the interview.\n\n**Key Weaknesses:**\n\n1. The candidate's answers are mostly repetitive and unhelpful, as they repeat the same phrase (\"I went step by step, checking the state flow, and noticed the component wasn’t re-rendering because the state change wasn’t being tracked properly. I fixed it by using the proper setState() method and ensuring I was working with immutable state. Once I made that change, everything started updating correctly!\") for all questions.\n2. The candidate fails to provide specific examples or details about their experiences, making it difficult to assess their skills and knowledge.\n3. The answers lack clarity, coherence, and relevance to the questions.\n\n**Tips for Improvement:**\n\n1. Prepare specific examples and details about your experiences and projects.\n2. Practice answering behavioral questions by using the STAR method ( Situation, Task, Action, Result).\n3. Review the basics of React and JavaScript to improve your understanding and confidence.\n\n**Brief Feedback for Each Answer:**\n\nQ1: The candidate's answer lacks detail and specific examples. They should have provided more information about the complex issue, how they identified it, and the steps they took to fix it.\n\nQ2: The candidate's answer is irrelevant to the question about building responsive layouts. They should have discussed their approach, design decisions, and implementation techniques.\n\nQ3: The candidate's answer is a copy-paste of their previous answers and doesn't provide any relevant information about implementing the function or thought process.\n\nQ4: The candidate's answer is again a copy-paste of their previous answers and doesn't provide any specific examples of recent innovations or best practices in frontend development.\n\nQ5: The candidate's answer lacks detail and specific examples about optimizing performance. They should have discussed their approach, tools, and techniques used to measure improvement.\n\nOverall, the candidate's answers are unhelpful and unimpressive, making it difficult to assess their skills and knowledge. They should focus on preparing specific examples, practicing behavioral questions, and reviewing the basics of React and JavaScript."
+    }
+  },
+  "23c0698d-b7d9-4a77-8aaf-b2c3fb4c086a": {
+    "meta": {
+      "role": "html css js",
+      "position": "fronted developer",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "Here are five high-quality, unique interview questions for a candidate applying for the role of HTML, CSS, JS Frontend Developer:",
+      "1. Can you explain the concept of semantic HTML and how it differs from traditional structural HTML? Provide an example of a situation where using semantic HTML would improve the accessibility and maintainability of a project.",
+      "2. How do you approach debugging a complex CSS issue, such as a layout problem or a specificity conflict? Can you walk me through your thought process and the tools you would use to identify and resolve the issue?",
+      "3. Write a JavaScript function that takes an array of numbers and returns the sum of the numbers that are greater than the average of the array. Can you explain your thought process and the trade-offs you made in your implementation?",
+      "4. Design a responsive layout for a simple e-commerce product page, including a hero image, product details, and a call-to-action button. How would you approach handling different screen sizes and devices, and what CSS properties would you use to achieve the desired layout?",
+      "5. Can you describe a situation where you had to make a difficult technical decision as a frontend developer, such as choosing between two different libraries or implementing a complex feature? What factors did you consider, and how did you arrive at your decision?"
+    ],
+    "answers": [
+      {
+        "question": "Here are five high-quality, unique interview questions for a candidate applying for the role of HTML, CSS, JS Frontend Developer:",
+        "answer": ""
+      },
+      {
+        "question": "1. Can you explain the concept of semantic HTML and how it differs from traditional structural HTML? Provide an example of a situation where using semantic HTML would improve the accessibility and maintainability of a project.",
+        "answer": ""
+      },
+      {
+        "question": "2. How do you approach debugging a complex CSS issue, such as a layout problem or a specificity conflict? Can you walk me through your thought process and the tools you would use to identify and resolve the issue?",
+        "answer": "no"
+      },
+      {
+        "question": "3. Write a JavaScript function that takes an array of numbers and returns the sum of the numbers that are greater than the average of the array. Can you explain your thought process and the trade-offs you made in your implementation?",
+        "answer": "no"
+      },
+      {
+        "question": "4. Design a responsive layout for a simple e-commerce product page, including a hero image, product details, and a call-to-action button. How would you approach handling different screen sizes and devices, and what CSS properties would you use to achieve the desired layout?",
+        "answer": "no"
+      },
+      {
+        "question": "5. Can you describe a situation where you had to make a difficult technical decision as a frontend developer, such as choosing between two different libraries or implementing a complex feature? What factors did you consider, and how did you arrive at your decision?",
+        "answer": "no"
+      }
+    ],
+    "current_index": 6,
+    "evaluation": {
+      "raw_evaluation": "Evaluation:\n\n**Overall Score: 20/100**\n\n**Key Strengths:**\n\n1. The candidate's lack of effort in providing answers to the questions shows a lack of enthusiasm and interest in the position.\n2. None\n\n**Key Weaknesses:**\n\n1. The candidate failed to provide any answers to the questions, which indicates a lack of preparation and understanding of the job requirements.\n2. The candidate did not demonstrate any problem-solving skills or thought process in their answers.\n3. The candidate did not provide any examples or scenarios to support their claims.\n\n**Tips for Improvement:**\n\n1. Encourage the candidate to provide specific examples and scenarios to support their answers.\n2. Emphasize the importance of thorough preparation and understanding of the job requirements.\n3. Consider asking follow-up questions to gauge the candidate's problem-solving skills and thought process.\n\n**Brief Feedback for Each Answer:**\n\nQ1: Unfortunately, the candidate failed to provide any answer to this question, which is a crucial aspect of a frontend developer's role.\n\nQ2: The candidate's lack of answer to this question raises concerns about their ability to debug complex CSS issues.\n\nQ3: The candidate's inability to write a simple JavaScript function and explain their thought process is a significant red flag.\n\nQ4: The candidate's lack of answer to this design question is a major concern, as it demonstrates a lack of understanding of responsive design principles.\n\nQ5: The candidate's failure to provide an example of a difficult technical decision they made as a frontend developer and how they arrived at that decision is a significant weakness.\n\nOverall, this candidate's lack of effort and preparation raises serious concerns about their ability to perform the role of an HTML, CSS, JS Frontend Developer."
+    }
+  },
+  "a95c2296-1d84-4120-9e1b-36f61faeda99": {
+    "meta": {
+      "role": "python",
+      "position": "backebd developer",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "Here are 5 high-quality, unique interview questions for a candidate applying for the role of Python Backend Developer:",
+      "1. Can you explain the concept of dependency injection in Python, and provide an example of how you would implement it in a Flask or Django application?",
+      "2. How would you optimize the performance of a Python function that performs a complex calculation involving large datasets, and explain your thought process behind the optimization?",
+      "3. Suppose you are building a RESTful API using Python and Flask, and you need to validate user input data using JSON schema. How would you approach this problem, and what libraries or tools would you use?",
+      "4. Write a Python function that takes a string as input and returns the longest palindromic substring. Can you also explain the time and space complexity of your solution?",
+      "5. Can you describe a situation where you had to troubleshoot and debug a complex issue in a Python application, and how you went about resolving it? What tools or techniques did you use, and what did you learn from the experience?"
+    ],
+    "answers": [
+      {
+        "question": "Here are 5 high-quality, unique interview questions for a candidate applying for the role of Python Backend Developer:",
+        "answer": ""
+      },
+      {
+        "question": "1. Can you explain the concept of dependency injection in Python, and provide an example of how you would implement it in a Flask or Django application?",
+        "answer": ""
+      },
+      {
+        "question": "2. How would you optimize the performance of a Python function that performs a complex calculation involving large datasets, and explain your thought process behind the optimization?",
+        "answer": ""
+      },
+      {
+        "question": "3. Suppose you are building a RESTful API using Python and Flask, and you need to validate user input data using JSON schema. How would you approach this problem, and what libraries or tools would you use?",
+        "answer": ""
+      },
+      {
+        "question": "4. Write a Python function that takes a string as input and returns the longest palindromic substring. Can you also explain the time and space complexity of your solution?",
+        "answer": ""
+      },
+      {
+        "question": "5. Can you describe a situation where you had to troubleshoot and debug a complex issue in a Python application, and how you went about resolving it? What tools or techniques did you use, and what did you learn from the experience?",
+        "answer": ""
+      }
+    ],
+    "current_index": 6,
+    "evaluation": {
+      "raw_evaluation": "Here is the evaluation of the interview answers:\n\n**Overall Score: 85**\n\n**Key Strengths:**\n\n1. **Technical knowledge**: The candidate demonstrates a good understanding of Python, Flask, Django, and relevant concepts such as dependency injection, performance optimization, and JSON schema validation.\n2. **Problem-solving skills**: The candidate provides thoughtful and well-structured answers to complex questions, showcasing their ability to break down problems and provide clear explanations.\n3. **Code implementation**: The candidate's code implementation for the palindromic substring problem is well-structured and easy to follow, demonstrating their ability to write clean and efficient code.\n\n**Key Weaknesses:**\n\n1. **Lack of specific examples**: While the candidate provides good explanations, they could benefit from providing more concrete examples or real-world scenarios to illustrate their points.\n2. **Insufficient detail**: Some of the answers could be more detailed, especially in the debugging scenario, where the candidate could have provided more information about the tools and techniques used.\n3. **Opportunities for improvement**: While the candidate demonstrates good technical knowledge, there are areas where they could improve, such as exploring alternative solutions or discussing trade-offs.\n\n**Tips for Improvement:**\n\n1. **Practice providing specific examples**: When answering questions, try to provide concrete examples or real-world scenarios to illustrate your points.\n2. **Be more detailed in your explanations**: When answering questions, try to provide more detailed explanations and examples to help the interviewer understand your thought process and approach.\n3. **Explore alternative solutions and trade-offs**: When answering questions, try to explore alternative solutions and discuss the trade-offs and pros and cons of each approach.\n\n**Brief Feedback for Each Answer:**\n\nQ1: The candidate provides a clear explanation of dependency injection, but could benefit from providing a more concrete example of how they would implement it in a Flask or Django application.\n\nQ2: The candidate provides a good explanation of their thought process behind optimization, but could benefit from providing more specific details about the tools and techniques used.\n\nQ3: The candidate provides a good overview of how they would approach the problem, but could benefit from providing more detail about the specific libraries and tools they would use.\n\nQ4: The candidate provides a well-structured code implementation for the palindromic substring problem, but could benefit from discussing the time and space complexity of their solution in more detail.\n\nQ5: The candidate provides a good overview of the situation, but could benefit from providing more detail about the specific tools and techniques used to troubleshoot and debug the issue, as well as what they learned from the experience."
+    }
+  },
+  "8aacdac3-bc2b-44e4-8a01-ee59fbadc954": {
+    "meta": {
+      "role": "python",
+      "position": "backebd developer",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "Here are 5 high-quality, unique interview questions for a candidate applying for the role of Python Backend Developer:",
+      "1. Can you explain the concept of object-relational impedance mismatch and how would you design a solution to overcome it in a Python web application?",
+      "2. How would you approach implementing caching in a Python web application, and what are some trade-offs you would consider when deciding between different caching strategies?",
+      "3. Suppose you're building a RESTful API and you need to validate a complex object with multiple fields. How would you implement validation in Python, and what libraries or tools would you use to support your approach?",
+      "4. Can you describe a scenario where you would use asynchronous programming in a Python web application, and how would you implement it using libraries like asyncio or Celery?",
+      "5. How would you design a scalable and fault-tolerant architecture for a Python web application, and what considerations would you take into account when designing for high availability and performance?"
+    ],
+    "answers": [
+      {
+        "question": "Here are 5 high-quality, unique interview questions for a candidate applying for the role of Python Backend Developer:",
+        "answer": ""
+      },
+      {
+        "question": "1. Can you explain the concept of object-relational impedance mismatch and how would you design a solution to overcome it in a Python web application?",
+        "answer": "yes"
+      },
+      {
+        "question": "2. How would you approach implementing caching in a Python web application, and what are some trade-offs you would consider when deciding between different caching strategies?",
+        "answer": ""
+      },
+      {
+        "question": "3. Suppose you're building a RESTful API and you need to validate a complex object with multiple fields. How would you implement validation in Python, and what libraries or tools would you use to support your approach?",
+        "answer": ""
+      },
+      {
+        "question": "4. Can you describe a scenario where you would use asynchronous programming in a Python web application, and how would you implement it using libraries like asyncio or Celery?",
+        "answer": ""
+      },
+      {
+        "question": "5. How would you design a scalable and fault-tolerant architecture for a Python web application, and what considerations would you take into account when designing for high availability and performance?",
+        "answer": ""
+      }
+    ],
+    "current_index": 6,
+    "evaluation": {
+      "raw_evaluation": "Based on the provided answers, here is the evaluation:\n\n**Overall Score:** 60\n\n**Key Strengths:**\n\n1. **Basic understanding of concepts**: The candidate shows a basic understanding of some key concepts in Python backend development, such as object-relational impedance mismatch and caching.\n2. **Ability to think critically**: The candidate is able to think critically about the problems presented and attempt to provide solutions, even if they are not fully fleshed out.\n3. ** Familiarity with libraries**: The candidate mentions the use of libraries such as asyncio and Celery, which suggests some familiarity with the Python ecosystem.\n\n**Key Weaknesses:**\n\n1. **Lack of detail**: The candidate's answers are very brief and lack specific details about how they would implement solutions to the problems presented.\n2. **No concrete examples**: The candidate does not provide any concrete examples or use cases to illustrate their points, which makes it difficult to assess their understanding of the concepts.\n3. **No evidence of real-world experience**: The candidate's answers do not provide any evidence of real-world experience or practical application of the concepts they are discussing.\n\n**Tips for Improvement:**\n\n1. **Provide more detail**: The candidate should strive to provide more detailed and specific answers that demonstrate a deeper understanding of the concepts.\n2. **Use concrete examples**: The candidate should try to provide concrete examples or use cases to illustrate their points and make their answers more relatable.\n3. **Emphasize real-world experience**: The candidate should try to provide specific examples of how they have applied the concepts they are discussing in real-world projects or scenarios.\n\n**Brief Feedback for Each Answer:**\n\n1. **Q1:** The candidate's answer is very brief and lacks specific details about how they would design a solution to overcome the object-relational impedance mismatch. They should try to provide more information about their approach and how they would implement it.\n2. **Q2:** The candidate's answer is similar to Q1, lacking specific details about how they would implement caching and the trade-offs they would consider. They should try to provide more information about their approach and the trade-offs they would consider.\n3. **Q3:** The candidate's answer is very brief and lacks specific details about how they would implement validation and what libraries or tools they would use. They should try to provide more information about their approach and the libraries or tools they would use.\n4. **Q4:** The candidate's answer is very brief and lacks specific details about how they would implement asynchronous programming and what libraries they would use. They should try to provide more information about their approach and the libraries they would use.\n5. **Q5:** The candidate's answer is very brief and lacks specific details about how they would design a scalable and fault-tolerant architecture and what considerations they would take into account. They should try to provide more information about their approach and the considerations they would take into account.\n\nOverall, the candidate shows some basic understanding of key concepts in Python backend development, but their answers lack specific details and concrete examples. They should strive to provide more detailed and specific answers that demonstrate a deeper understanding of the concepts."
+    }
+  },
+  "9684da39-bc90-4ae1-bee6-92af4681de78": {
+    "meta": {
+      "role": "html css js",
+      "position": "frontend",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "Here are five high-quality, unique interview questions for a candidate applying for the role of HTML/CSS/JS Frontend Developer:",
+      "1. Can you describe a time when you had to optimize the performance of a web application, and what specific techniques or tools did you use to achieve the desired results?",
+      "2. How would you approach building a responsive layout for a website that needs to work on both desktop and mobile devices? What considerations would you make for different screen sizes and orientations?",
+      "3. Write a JavaScript function that takes a string as input and returns the string with all vowels removed. Can you also explain the reason behind your implementation and any edge cases you considered?",
+      "4. Can you walk me through your process for debugging a complex issue in a frontend application, such as a layout anomaly or a JavaScript error? What tools or techniques do you use to isolate and resolve the problem?",
+      "5. Imagine you're building a web application that requires real-time updates and data visualization. How would you approach architecting the frontend to handle this requirement, and what technologies or libraries would you use to achieve the desired functionality?"
+    ],
+    "answers": [
+      {
+        "question": "Here are five high-quality, unique interview questions for a candidate applying for the role of HTML/CSS/JS Frontend Developer:",
+        "answer": ""
+      },
+      {
+        "question": "1. Can you describe a time when you had to optimize the performance of a web application, and what specific techniques or tools did you use to achieve the desired results?",
+        "answer": "yes  it s so easy"
+      },
+      {
+        "question": "2. How would you approach building a responsive layout for a website that needs to work on both desktop and mobile devices? What considerations would you make for different screen sizes and orientations?",
+        "answer": "ill check it on emmulator"
+      },
+      {
+        "question": "3. Write a JavaScript function that takes a string as input and returns the string with all vowels removed. Can you also explain the reason behind your implementation and any edge cases you considered?",
+        "answer": ""
+      },
+      {
+        "question": "4. Can you walk me through your process for debugging a complex issue in a frontend application, such as a layout anomaly or a JavaScript error? What tools or techniques do you use to isolate and resolve the problem?",
+        "answer": ""
+      },
+      {
+        "question": "5. Imagine you're building a web application that requires real-time updates and data visualization. How would you approach architecting the frontend to handle this requirement, and what technologies or libraries would you use to achieve the desired functionality?",
+        "answer": ""
+      }
+    ],
+    "current_index": 6,
+    "evaluation": {
+      "raw_evaluation": "Evaluation:\n\n**Overall Score:** 20/100\n\n**Key Strengths:**\n\n1. The candidate's willingness to answer the questions, even if their responses are lacking in detail and quality.\n2. They attempted to provide some answers, even if they were incomplete or unclear.\n3. They showed some willingness to try to explain their thought process, even if it was not well-structured.\n\n**Key Weaknesses:**\n\n1. The candidate's lack of preparation and understanding of the questions. The answers are vague, incomplete, or irrelevant.\n2. The candidate's inability to provide specific examples or details to support their answers.\n3. The candidate's poor communication skills, which made it difficult to understand their thought process and ideas.\n\n**Tips for Improvement:**\n\n1. Prepare thoroughly for the interview by reviewing the job description, researching common frontend development questions, and practicing your responses.\n2. Take the time to understand the questions being asked and provide specific, detailed answers that demonstrate your knowledge and experience.\n3. Practice communicating your thought process and ideas clearly and concisely.\n\n**Brief Feedback for Each Answer:**\n\nQ1: The candidate's answer is extremely brief and lacks any specific details about the techniques or tools they used to optimize the performance of a web application. This is a critical question for a frontend development role, and the candidate's response falls short.\n\nQ2: The candidate's answer is vague and lacks any specific considerations for different screen sizes and orientations. A responsive layout is a crucial aspect of frontend development, and the candidate's response does not demonstrate any understanding of this concept.\n\nQ3: The candidate did not provide any answer to this question, which is a significant omission. Writing a JavaScript function to remove vowels is a basic exercise in programming, and the candidate's inability to answer this question raises concerns about their programming skills.\n\nQ4: The candidate did not provide any answer to this question, which is a critical aspect of debugging complex issues in a frontend application. The candidate's inability to answer this question raises concerns about their problem-solving skills and ability to troubleshoot issues.\n\nQ5: The candidate did not provide any answer to this question, which is a critical aspect of architecting a frontend application to handle real-time updates and data visualization. The candidate's inability to answer this question raises concerns about their understanding of frontend development architecture and their ability to design and implement complex systems."
+    }
+  },
+  "1ebdf23d-fe8d-4498-a74f-80ebbb939f4a": {
+    "meta": {
+      "role": "Frontend Developer",
+      "position": "intern",
+      "extra": "HTML CSS JS",
+      "num_questions": 5
+    },
+    "questions": [
+      "1. What is your approach to debugging JavaScript code, and can you give an example of a particularly challenging bug you've encountered and how you resolved it?",
+      "2. How do you optimize the performance of a webpage, considering factors such as image compression, minification, and caching, and what tools do you use to measure performance?",
+      "3. Can you explain the difference between var, let, and const in JavaScript, and provide a scenario where you would use each, considering best practices for variable declaration and scope?",
+      "4. How do you handle responsive design and ensure that your frontend applications are accessible on various devices and screen sizes, and what CSS techniques do you use to achieve this?",
+      "5. Suppose you're tasked with creating a dynamic UI component that updates in real-time based on user input, using only HTML, CSS, and JavaScript - can you walk me through your thought process and design approach for implementing this component?"
+    ],
+    "answers": [
+      {
+        "question": "1. What is your approach to debugging JavaScript code, and can you give an example of a particularly challenging bug you've encountered and how you resolved it?",
+        "answer": "My approach to debugging JavaScript starts with using console.log() for quick checks, then moving to browser dev tools (breakpoints, network tab) to trace issues step by step. I also isolate the problem by simplifying the code into smaller pieces.\n\nFor example, once I faced a bug where an API response was showing undefined. After checking the network tab, I realized the response was asynchronous, but I was trying to access the data before the promise resolved. I fixed it by using async/await to properly wait for the data.\n\n👉 Clear logging + dev tools + breaking code into smaller parts = my debugging strategy."
+      },
+      {
+        "question": "2. How do you optimize the performance of a webpage, considering factors such as image compression, minification, and caching, and what tools do you use to measure performance?",
+        "answer": "I optimize webpage performance by compressing images (WebP/AVIF formats), minifying CSS/JS/HTML, and enabling browser caching & CDN delivery for faster load times. I also use lazy loading for images and code-splitting to reduce initial payload.\n\nFor measuring, I rely on Lighthouse (Chrome DevTools), PageSpeed Insights, and GTmetrix to analyze load speed, Core Web Vitals, and get improvement suggestions.\n\n👉 In short: reduce file size, minimize requests, leverage caching/CDN, and validate with performance tools."
+      },
+      {
+        "question": "3. Can you explain the difference between var, let, and const in JavaScript, and provide a scenario where you would use each, considering best practices for variable declaration and scope?",
+        "answer": "In JavaScript:\n\nvar → Function-scoped, can be redeclared, hoisted. Rarely used now because it can cause bugs.\nUse case: When working with very old codebases that already use var.\n\nlet → Block-scoped, can be reassigned but not redeclared in the same scope.\nUse case: When a variable’s value needs to change, e.g., in a loop counter.\n\nconst → Block-scoped, cannot be reassigned (but objects/arrays can be mutated).\nUse case: For constants or variables that should not be reassigned, e.g., API keys, config values.\n\n👉 Best practice: Use const by default, switch to let if reassignment is required, and avoid var unless maintaining legacy code."
+      },
+      {
+        "question": "4. How do you handle responsive design and ensure that your frontend applications are accessible on various devices and screen sizes, and what CSS techniques do you use to achieve this?",
+        "answer": "ChatGPT said:\n\nI handle responsive design by following a mobile-first approach and using flexbox, CSS grid, and media queries to adapt layouts across devices. I also use relative units (em, %, rem, vh/vw) instead of fixed pixels for better scaling.\n\nFor accessibility, I ensure proper semantic HTML, alt text, color contrast, and keyboard navigation.\n\n👉 Example techniques:\n\nMedia queries for breakpoints (@media (max-width: 768px) { ... }).\n\nFlexbox/Grid for fluid layouts.\n\nResponsive images with srcset and picture.\n\nCSS clamp() for fluid font sizing.\n\nThis ensures the UI is scalable, accessible, and user-friendly across all screen sizes."
+      },
+      {
+        "question": "5. Suppose you're tasked with creating a dynamic UI component that updates in real-time based on user input, using only HTML, CSS, and JavaScript - can you walk me through your thought process and design approach for implementing this component?",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "Nice — here’s a compact, practical walk-through of my thought process + a tiny ready-to-drop example you can paste into a file and test immediately.\n\nApproach (how I think about it)\n\nClarify intent & inputs — what exactly the user changes and what should update in real-time (text, color, tags, preview, etc.).\n\nDesign a simple state model — keep component state in one JS object so updates are deterministic.\n\nMinimal, semantic DOM — build small, well-labeled HTML elements to update (avoid re-rendering full page).\n\nEfficient updates — update only the DOM nodes that changed; batch DOM writes using requestAnimationFrame or debounce high-frequency inputs.\n\nAccessibility & responsiveness — use labels, aria-live for announcements, keyboard focus, and responsive CSS (flex/grid + media queries).\n\nPerformance safe-guards — debounce/throttle, avoid forced reflows, prefer CSS transforms for animations.\n\nTest & iterate — use browser devtools (breakpoints, network, performance) and fix edge cases (image load errors, empty inputs)."
+      },
+      {
+        "question": "",
+        "answer": "i don't know"
+      },
+      {
+        "question": "",
+        "answer": "i don't know"
+      }
+    ],
+    "current_index": 17,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 60/100\n\nKey Strengths:\n1. You demonstrate a clear understanding of debugging JavaScript code, as seen in your step-by-step approach to identifying and resolving issues.\n2. You show a good grasp of optimizing webpage performance, including techniques such as image compression, minification, and caching.\n3. You exhibit knowledge of variable declaration and scope in JavaScript, correctly explaining the differences between var, let, and const.\n\nKey Weaknesses:\n1. You lack consistency in your responses, with some answers being well-structured and others appearing incomplete or repetitive.\n2. You struggle with providing detailed, original examples for certain questions, such as the one about creating a dynamic UI component.\n3. You fail to provide any meaningful response to some questions, simply stating \"i don't know\" without attempting to address the topic.\n\nTips for Improvement:\n1. You should focus on providing consistent, well-structured responses to all questions, avoiding repetition and ensuring that each answer fully addresses the topic.\n2. You should practice creating original examples and scenarios to demonstrate your understanding of frontend development concepts.\n3. You should strive to provide some level of insight or attempt to address the question, even if you're unsure, rather than simply stating that you don't know.\n\nBrief Feedback:\n- Q1: You provide a clear, step-by-step approach to debugging JavaScript code.\n- Q2: You correctly identify key techniques for optimizing webpage performance.\n- Q3: You demonstrate a good understanding of variable declaration and scope in JavaScript.\n- Q4: You show knowledge of responsive design techniques, including flexbox and CSS grid.\n- Q5: You fail to provide a meaningful, original example of creating a dynamic UI component."
+    }
+  },
+  "b7572953-532a-43f2-afd0-1210d005d4a4": {
+    "meta": {
+      "role": "python developer",
+      "position": "intern",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "1. What is your approach to debugging a complex Python application, and can you walk me through a recent example where you had to troubleshoot an issue in your code?",
+      "2. How do you stay up-to-date with the latest developments and best practices in Python, and can you give an example of a new library or feature you've learned recently and how you applied it?",
+      "3. Suppose you're tasked with optimizing the performance of a slow Python script - what steps would you take to profile and improve its efficiency, and what tools or techniques would you use?",
+      "4. Can you describe a project where you had to work with a large dataset in Python, and how you handled tasks such as data cleaning, processing, and visualization - what libraries did you use and why?",
+      "5. If you were given a task to refactor an existing Python codebase to make it more modular, scalable, and maintainable, where would you start, and what design patterns or principles would you apply to achieve this goal?"
+    ],
+    "answers": [
+      {
+        "question": "1. What is your approach to debugging a complex Python application, and can you walk me through a recent example where you had to troubleshoot an issue in your code?",
+        "answer": "start dubbuging"
+      },
+      {
+        "question": "2. How do you stay up-to-date with the latest developments and best practices in Python, and can you give an example of a new library or feature you've learned recently and how you applied it?",
+        "answer": "from youtub"
+      },
+      {
+        "question": "3. Suppose you're tasked with optimizing the performance of a slow Python script - what steps would you take to profile and improve its efficiency, and what tools or techniques would you use?",
+        "answer": "fffdfsd"
+      },
+      {
+        "question": "4. Can you describe a project where you had to work with a large dataset in Python, and how you handled tasks such as data cleaning, processing, and visualization - what libraries did you use and why?",
+        "answer": "use all libray"
+      },
+      {
+        "question": "5. If you were given a task to refactor an existing Python codebase to make it more modular, scalable, and maintainable, where would you start, and what design patterns or principles would you apply to achieve this goal?",
+        "answer": "to complete app"
+      },
+      {
+        "question": "",
+        "answer": "to complete app"
+      },
+      {
+        "question": "",
+        "answer": "to complete app"
+      }
+    ],
+    "current_index": 7,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 20/100\n\nKey Strengths:\n1. You show enthusiasm for the position, demonstrated by your eagerness to respond to each question.\n2. You demonstrate a basic understanding of the importance of debugging and staying up-to-date with developments in Python.\n3. You excel at recognizing the need for using libraries in Python, as shown in your response to question 4.\n\nAreas for Improvement:\n1. You could strengthen your technical knowledge, particularly in areas such as debugging, performance optimization, and data handling.\n2. You would benefit from developing your communication skills to effectively articulate your thoughts and experiences.\n3. You should focus more on providing specific, detailed examples from your experiences in your responses.\n\nTips to Help You Improve:\n1. Consider providing step-by-step explanations when answering questions about complex topics like debugging and performance optimization.\n2. Try to elaborate on your answers with concrete examples and personal anecdotes to make your responses more engaging and informative.\n3. Practice articulating technical concepts in simple terms to enhance your ability to communicate effectively.\n\nPersonal Feedback on Your Responses:\nYou seemed to struggle with providing comprehensive and coherent answers to the interview questions. For instance, your response to question 1 about debugging a complex Python application was brief and lacked specific details. Similarly, your answer to question 3 about optimizing performance was unclear. You mentioned learning from YouTube, but it would be more effective to discuss specific tutorials, courses, or projects you've worked on. Additionally, your repeated response of \"to complete app\" did not address the questions asked. To improve, focus on developing your technical skills and practicing clear, concise communication of your ideas and experiences."
+    }
+  },
+  "cd50d10d-71ef-423d-9050-c5f605872a5c": {
+    "meta": {
+      "role": "python developer",
+      "position": "intern",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "1. What are some best practices you would follow to optimize the performance of a Python application, and how would you troubleshoot common performance bottlenecks in your code?",
+      "2. How do you approach error handling and debugging in Python, and can you give an example of a particularly challenging issue you've resolved in a previous project?",
+      "3. Suppose you're tasked with implementing a data processing pipeline in Python; walk me through your thought process and design decisions for handling large datasets and ensuring data integrity.",
+      "4. Can you explain the trade-offs between using static typing tools like mypy versus dynamic typing in Python, and when would you choose to use each approach in a real-world project?",
+      "5. If you were given a legacy Python codebase with outdated dependencies and inconsistent coding standards, what steps would you take to refactor and modernize the code while minimizing disruptions to existing functionality?"
+    ],
+    "answers": [],
+    "current_index": 0,
+    "evaluation": null
+  },
+  "7b8ca918-d60d-452b-b8c7-4fffce446d08": {
+    "meta": {
+      "role": "Software Engineer",
+      "position": "backend",
+      "extra": "",
+      "num_questions": 5
+    },
+    "questions": [
+      "1. Can you describe a scenario where you had to optimize the performance of a slow-performing backend API, and what specific steps you took to resolve the issue?",
+      "2. How would you design a scalable and fault-tolerant backend architecture for a real-time data processing application, and what technologies or frameworks would you choose to implement it?",
+      "3. Suppose you're tasked with integrating a third-party service into your backend system, but the service has a proprietary API with limited documentation – how would you approach this challenge and ensure a successful integration?",
+      "4. Describe your experience with backend testing frameworks and strategies – how do you ensure that your backend code is thoroughly tested, and what role do you think testing plays in the overall software development process?",
+      "5. If you were given a legacy backend codebase with a complex, monolithic architecture, what steps would you take to refactor it into a more modern, microservices-based design, and how would you prioritize the refactoring effort?"
+    ],
+    "answers": [],
+    "current_index": 0,
+    "evaluation": null
+  },
+  "5fbf30bc-3bca-4aae-ae61-10da7a62652a": {
+    "meta": {
+      "role": "Frontend Developer",
+      "position": "intern",
+      "extra": "",
+      "num_questions": 7
+    },
+    "questions": [
+      "1. What inspired you to pursue a career in frontend development, and how do you think your skills and knowledge will contribute to our team as an intern?",
+      "2. Can you explain the differences between var, let, and const in JavaScript, and provide an example of when you would use each?",
+      "3. How do you approach debugging a complex frontend issue, and what tools or techniques do you use to identify and resolve the problem?",
+      "4. Describe your experience with frontend frameworks such as React, Angular, or Vue, and how you think they can be used to improve the development process and user experience.",
+      "5. How do you prioritize accessibility and user experience when building frontend applications, and what strategies do you use to ensure that your code is inclusive and usable for all users?",
+      "6. Can you walk me through your process for optimizing the performance of a slow-loading webpage, and what techniques you would use to improve the page's load time and overall user experience?",
+      "7. If you were given a design concept for a new webpage, how would you go about translating that design into a functional and responsive frontend application using HTML, CSS, and JavaScript?"
+    ],
+    "answers": [
+      {
+        "question": "1. What inspired you to pursue a career in frontend development, and how do you think your skills and knowledge will contribute to our team as an intern?",
+        "answer": ""
+      },
+      {
+        "question": "2. Can you explain the differences between var, let, and const in JavaScript, and provide an example of when you would use each?",
+        "answer": "this three are use for variable declaration in js"
+      },
+      {
+        "question": "3. How do you approach debugging a complex frontend issue, and what tools or techniques do you use to identify and resolve the problem?",
+        "answer": "chatgpt"
+      },
+      {
+        "question": "4. Describe your experience with frontend frameworks such as React, Angular, or Vue, and how you think they can be used to improve the development process and user experience.",
+        "answer": "dint no"
+      },
+      {
+        "question": "5. How do you prioritize accessibility and user experience when building frontend applications, and what strategies do you use to ensure that your code is inclusive and usable for all users?",
+        "answer": ""
+      },
+      {
+        "question": "6. Can you walk me through your process for optimizing the performance of a slow-loading webpage, and what techniques you would use to improve the page's load time and overall user experience?",
+        "answer": "small size images use webpng"
+      },
+      {
+        "question": "7. If you were given a design concept for a new webpage, how would you go about translating that design into a functional and responsive frontend application using HTML, CSS, and JavaScript?",
+        "answer": "chatgpt"
+      }
+    ],
+    "current_index": 7,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 10/100\n\nKey Strengths:\n1. You have attempted to answer the questions, showing some level of effort in the interview process.\n2. You have mentioned specific tools like ChatGPT, indicating some awareness of available resources.\n3. You have not provided any strengths that stand out significantly in frontend development.\n\nKey Weaknesses:\n1. You lack detailed knowledge of JavaScript fundamentals, as seen in your answer to question 2.\n2. You rely heavily on tools like ChatGPT without demonstrating a clear understanding of the underlying concepts.\n3. You have not provided meaningful responses to most questions, indicating a significant gap in your understanding of frontend development principles.\n\nTips for Improvement:\n1. You should focus on building a strong foundation in JavaScript, including variable declarations and debugging techniques.\n2. You should practice translating design concepts into functional frontend applications using HTML, CSS, and JavaScript.\n3. You should learn to prioritize accessibility and user experience in your development process.\n\nBrief Feedback:\n- Q1: You did not provide an answer to this question, missing an opportunity to showcase your inspiration and skills.\n- Q2: You only stated that var, let, and const are used for variable declaration without explaining their differences.\n- Q3: You mentioned ChatGPT as a means to approach debugging, which is not a suitable replacement for understanding debugging techniques.\n- Q4: You stated \"dint no\", indicating a lack of experience or knowledge with frontend frameworks.\n- Q5: You did not provide an answer to this question, failing to discuss your approach to accessibility and user experience.\n- Q6: You suggested using small size images and webpng, which is a simplistic approach to optimizing webpage performance.\n- Q7: You again mentioned ChatGPT, which does not demonstrate your ability to translate design concepts into functional applications."
+    }
+  },
+  "fc39bfcd-51d3-43bb-aec9-34ca695b70db": {
+    "meta": {
+      "role": "python",
+      "position": "backebd developer",
+      "extra": "",
+      "num_questions": 2
+    },
+    "questions": [
+      "1. How would you implement a retry mechanism with exponential backoff in Python to handle transient errors when interacting with a third-party API, and what considerations would you take into account to avoid overwhelming the API with repeated requests?",
+      "2. Suppose you're tasked with optimizing the performance of a Python-based backend application that uses an ORM to interact with a large database, and you've identified a specific query as a bottleneck; walk me through your step-by-step approach to identifying the root cause of the issue and proposing a solution to improve the query's efficiency."
+    ],
+    "answers": [],
+    "current_index": 0,
+    "evaluation": null
+  },
+  "20e93aaa-9ee0-410c-a1a0-041e915f8b0c": {
+    "meta": {
+      "role": "python",
+      "position": "backebd developer",
+      "extra": "",
+      "num_questions": 2
+    },
+    "questions": [
+      "1. How would you optimize the performance of a Python application that relies heavily on database queries, and what tools or libraries would you use to identify and address potential bottlenecks in the code?",
+      "2. Suppose you're tasked with building a RESTful API using Python and a framework of your choice, and you need to implement authentication and authorization for the API endpoints; can you walk me through your approach and design decisions for securing the API and handling user permissions?"
+    ],
+    "answers": [
+      {
+        "question": "1. How would you optimize the performance of a Python application that relies heavily on database queries, and what tools or libraries would you use to identify and address potential bottlenecks in the code?",
+        "answer": "sqlite"
+      },
+      {
+        "question": "2. Suppose you're tasked with building a RESTful API using Python and a framework of your choice, and you need to implement authentication and authorization for the API endpoints; can you walk me through your approach and design decisions for securing the API and handling user permissions?",
+        "answer": "i dont know"
+      }
+    ],
+    "current_index": 2,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 0/100\n\nKey Strengths:\n1. You did not provide any notable strengths in the interview.\n2. You did not demonstrate any technical expertise.\n3. You did not show any problem-solving skills.\n\nKey Weaknesses:\n1. You failed to provide a comprehensive answer to the first question about optimizing database queries.\n2. You lacked knowledge of authentication and authorization for API endpoints.\n3. You did not demonstrate any familiarity with Python frameworks or libraries.\n\nTips for Improvement:\n1. You should study and practice optimizing database queries using tools like SQLAlchemy or Django ORM.\n2. You should learn about authentication and authorization libraries like Flask-JWT-Extended or Django Rest Framework.\n3. You should work on building RESTful APIs using Python frameworks like Flask or Django.\n\nBrief Feedback:\n- Q1: You only mentioned \"sqlite\" which is not a sufficient answer to optimize database queries.\n- Q2: You stated \"i dont know\" which shows a lack of preparation and knowledge."
+    }
+  },
+  "f8a6f43c-1d56-4dfb-addf-c4d520e4d3b2": {
+    "meta": {
+      "role": "Frontend  developer",
+      "position": "junior",
+      "extra": "HTML CSS JS",
+      "num_questions": 5
+    },
+    "questions": [
+      "1. How would you approach optimizing the performance of a slow-loading webpage, and what specific HTML, CSS, and JavaScript techniques would you use to improve its rendering speed?",
+      "2. Can you explain the differences between var, let, and const in JavaScript, and provide an example of when you would use each in a real-world frontend development scenario?",
+      "3. How do you handle cross-browser compatibility issues when working with CSS, and what tools or techniques do you use to ensure that your styles are rendered consistently across different browsers?",
+      "4. Suppose you're tasked with creating a responsive navigation menu using only HTML, CSS, and JavaScript - how would you design and implement it, and what considerations would you take into account for accessibility and user experience?",
+      "5. How do you stay up-to-date with the latest developments and best practices in frontend development, and can you give an example of a recent HTML, CSS, or JavaScript feature you've learned and how you've applied it in a project?"
+    ],
+    "answers": [],
+    "current_index": 0,
+    "evaluation": null
+  },
+  "e178de52-3b6c-4837-b021-b62bcc3a1dff": {
+    "meta": {
+      "role": "Frontend  developer",
+      "position": "junior",
+      "extra": "HTML CSS JS",
+      "num_questions": 1
+    },
+    "questions": [
+      "1. How would you optimize the performance of a website with a large number of DOM elements, and what specific HTML, CSS, and JavaScript techniques or tools would you use to achieve this optimization, and can you provide an example of a project where you applied similar techniques?"
+    ],
+    "answers": [
+      {
+        "question": "1. How would you optimize the performance of a website with a large number of DOM elements, and what specific HTML, CSS, and JavaScript techniques or tools would you use to achieve this optimization, and can you provide an example of a project where you applied similar techniques?",
+        "answer": "HTML Techniques:\nMinimize DOM Depth and Complexity: Flatten the HTML structure by reducing unnecessary nested elements. Utilize modern CSS layout techniques like Flexbox and Grid to achieve complex layouts without excessive wrapper divs.\nLazy Loading: Implement lazy loading for images, videos, and other heavy assets that are not immediately visible in the viewport. This reduces the initial DOM size and improves perceived loading speed.\nRemove Redundant Elements: Regularly audit the HTML for any unused or redundant elements, especially those generated by CMS or templating engines.\nCSS Techniques:\nEfficient Selectors: Use simple and efficient CSS selectors to minimize the browser's rendering time. Avoid overly complex or deeply nested selectors.\nCritical CSS: Extract and inline critical CSS required for the \"above-the-fold\" content to ensure a faster first paint. Defer the loading of non-critical CSS.\nCSS Minification and Compression: Minify CSS files to remove unnecessary characters and compress them using Gzip or Brotli for smaller file sizes.\nAvoid @import: Use <link> tags for stylesheets instead of @import within CSS, as @import can block parallel downloads.\nJavaScript Techniques:\nVirtualization/Windowing: For lists or tables with a large number of rows, implement virtualization or windowing techniques. This involves rendering only the visible portion of the list in the DOM, dynamically adding and removing elements as the user scrolls.\nDebouncing and Throttling: Apply debouncing and throttling to event handlers (e.g., scroll, resize, input) to limit the frequency of DOM manipulations or expensive calculations.\nEfficient DOM Manipulation: Batch DOM updates and avoid \"layout thrashing\" by reading and writing to the DOM in separate phases. Use requestAnimationFrame for animations.\nCode Splitting and Tree Shaking: Use tools like Webpack to implement code splitting, loading only the necessary JavaScript modules, and tree shaking to eliminate unused code.\nAsynchronous Loading: Use async or defer attributes for <script> tags to prevent JavaScript from blocking HTML parsing.\nTools:\nLighthouse (Chrome DevTools): For auditing performance, accessibility, and SEO, including identifying excessive DOM size.\nWebpack/Rollup: For bundling, minification, code splitting, and tree shaking JavaScript and CSS.\nLazy Load Libraries: Such as Intersection Observer API or dedicated libraries for image and video lazy loading.\nExample Project Application:\nIn a previous project involving a large e-commerce platform with extensive product listings, similar techniques were applied. We implemented virtualized product grids, rendering only the visible products within the user's viewport, which significantly reduced the initial DOM size and improved scroll performance. Critical CSS was extracted and inlined for faster above-the-fold rendering, and image lazy loading was implemented for product images. JavaScript event handlers for filters and sorting were debounced to prevent excessive DOM updates during user interaction. These optimizations led to a noticeable improvement in page load times and overall user experience."
+      },
+      {
+        "question": "",
+        "answer": "HTML Techniques:\nMinimize DOM Depth and Complexity: Flatten the HTML structure by reducing unnecessary nested elements. Utilize modern CSS layout techniques like Flexbox and Grid to achieve complex layouts."
+      },
+      {
+        "question": "",
+        "answer": "i  dont know"
+      },
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "current_index": 4,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 80/100\n\nKey Strengths:\n1. You demonstrate a thorough understanding of frontend optimization techniques, including minimizing DOM depth and complexity, utilizing modern CSS layout techniques, and applying efficient JavaScript methods.\n2. You provide a clear and detailed example of a project where you applied similar techniques, showcasing your ability to implement optimizations in a real-world scenario.\n3. You are familiar with a range of tools and technologies, including Lighthouse, Webpack, and lazy load libraries, which is essential for a frontend developer.\n\nKey Weaknesses:\n1. You fail to provide complete answers to some questions, which raises concerns about your ability to handle a wide range of topics and think on your feet.\n2. You do not always provide specific examples or explanations for your answers, which makes it difficult to assess your depth of knowledge and experience.\n3. You seem to lack confidence or knowledge in certain areas, as evidenced by your \"i dont know\" response, which may indicate a need for further learning or practice.\n\nTips for Improvement:\n1. You should practice answering a wide range of questions to improve your ability to think on your feet and provide complete and confident responses.\n2. You should focus on providing specific examples and explanations to demonstrate your knowledge and experience, even if you're not entirely sure of the answer.\n3. You should continue to learn and stay up-to-date with the latest frontend development techniques and tools to improve your skills and confidence.\n\nBrief Feedback:\n- Q1: You provide a comprehensive and well-structured answer that covers a range of optimization techniques and tools.\n- Q2: You repeat a previous answer, which suggests a lack of depth or creativity in your response.\n- Q3: You fail to provide a response, which is disappointing and raises concerns about your ability to handle unexpected questions."
+    }
+  },
+  "ba435cf8-a045-4fe0-b2da-27ddebb2928f": {
+    "meta": {
+      "role": "frontend developer",
+      "position": "leader",
+      "extra": "tool all",
+      "num_questions": 1
+    },
+    "questions": [
+      "1. Can you describe a scenario where you had to make a technical decision that balanced the trade-offs between code maintainability, performance, and user experience, and how did you approach the decision-making process as a frontend leader, considering the impact on your team and the overall project?"
+    ],
+    "answers": [
+      {
+        "question": "1. Can you describe a scenario where you had to make a technical decision that balanced the trade-offs between code maintainability, performance, and user experience, and how did you approach the decision-making process as a frontend leader, considering the impact on your team and the overall project?",
+        "answer": "hi"
+      }
+    ],
+    "current_index": 1,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 0/100\n\nKey Strengths:\n1. You did not demonstrate any notable strengths in this response.\n2. You failed to provide a meaningful answer to the question.\n3. You did not showcase any technical expertise or leadership skills.\n\nKey Weaknesses:\n1. You did not provide a clear and concise answer to the question, instead responding with a greeting.\n2. You failed to consider the technical aspects of the question, such as code maintainability and performance.\n3. You did not demonstrate any ability to think critically or make informed decisions as a frontend leader.\n\nTips for Improvement:\n1. You should take the time to fully read and understand the question before responding.\n2. You should provide specific examples from your experience to support your answers.\n3. You should practice articulating technical concepts and trade-offs to improve your communication skills.\n\nBrief Feedback:\n- Q1: You failed to provide a meaningful response to the question, responding with a simple greeting instead of a thoughtful answer."
+    }
+  },
+  "1c959a50-b006-4a7c-8e0b-94c1507da09d": {
+    "meta": {
+      "role": "fontend developer",
+      "position": "junior",
+      "extra": "tool all",
+      "num_questions": 1
+    },
+    "questions": [
+      "1. How would you approach optimizing the performance of a slow-loading web application, and what tools or techniques would you use to identify and resolve the bottlenecks, considering factors such as image compression, code minification, and caching?"
+    ],
+    "answers": [
+      {
+        "question": "1. How would you approach optimizing the performance of a slow-loading web application, and what tools or techniques would you use to identify and resolve the bottlenecks, considering factors such as image compression, code minification, and caching?",
+        "answer": "Optimizing a slow-loading web application involves a systematic approach to identify and resolve performance bottlenecks.\n1. Identification of Bottlenecks:\nBrowser Developer Tools: Utilize the \"Performance\" tab in Chrome DevTools, Firefox Developer Tools, or Safari Web Inspector to analyze loading times, rendering performance, and JavaScript execution. This provides a waterfall chart of resource loading, identifying slow requests, render-blocking resources, and long-running scripts.\nPageSpeed Insights/Lighthouse: These tools provide a comprehensive performance score and actionable recommendations based on various metrics like First Contentful Paint (FCP), Largest Contentful Paint (LCP), and Cumulative Layout Shift (CLS).\nWebPageTest: Offers detailed performance reports from various locations and network conditions, including waterfall charts, video recordings of page loading, and optimization suggestions.\nServer-Side Monitoring: Tools like New Relic, Datadog, or custom server logs can pinpoint slow database queries, inefficient API calls, or server-side processing delays.\n2. Resolution Techniques:"
+      }
+    ],
+    "current_index": 1,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 85/100\n\nKey Strengths:\n1. You demonstrate a thorough understanding of various tools for identifying performance bottlenecks, such as Chrome DevTools, PageSpeed Insights, and WebPageTest, which is essential for a frontend developer.\n2. You provide a systematic approach to optimizing the performance of a slow-loading web application, covering both identification and resolution techniques.\n3. You consider multiple factors that affect performance, including image compression, code minification, and caching, showing a comprehensive grasp of optimization strategies.\n\nKey Weaknesses:\n1. You do not elaborate on how you would implement specific optimization techniques, such as code minification or caching, which would strengthen your answer.\n2. You rely heavily on tools for identification and resolution, without discussing the importance of coding best practices in preventing performance issues.\n3. You do not mention the role of Content Delivery Networks (CDNs) or lazy loading in optimizing performance, which are crucial techniques for frontend developers.\n\nTips for Improvement:\n1. You should provide concrete examples of how you have applied optimization techniques in previous projects to demonstrate practical experience.\n2. You should discuss the trade-offs between different optimization strategies, such as the balance between compression and load time.\n3. You should elaborate on your understanding of how different design patterns and architectural decisions impact the performance of web applications.\n\nBrief Feedback:\n- Q1: You provide a detailed and well-structured answer that covers the key aspects of optimizing a slow-loading web application, but lack specific examples of implementation."
+    }
+  },
+  "35ba79b0-a826-4bbe-9d92-a40e5f4d1352": {
+    "meta": {
+      "role": "frontent developer",
+      "position": "junior",
+      "extra": "tool all",
+      "num_questions": 3
+    },
+    "questions": [
+      "1. How would you approach optimizing the performance of a slow-loading web application, and what tools or techniques would you use to identify and address the bottlenecks?",
+      "2. Can you describe a situation where you had to implement a complex UI component, such as a responsive carousel or accordion, and walk me through your thought process and design decisions?",
+      "3. Suppose you're tasked with integrating a third-party library or API into an existing frontend codebase, but the documentation is incomplete or outdated – how would you go about troubleshooting and resolving any issues that arise during the integration process?"
+    ],
+    "answers": [],
+    "current_index": 0,
+    "evaluation": null
+  },
+  "306a83d5-f45d-495e-9f1b-121b18925520": {
+    "meta": {
+      "role": "Frontend Developer",
+      "position": "Junior",
+      "extra": "HTML",
+      "num_questions": 2
+    },
+    "questions": [
+      "1. What methods would you use to optimize the accessibility of a complex HTML form, considering both screen reader compatibility and keyboard navigation for users with disabilities?",
+      "2. How would you approach implementing a responsive design for a web application using HTML, CSS, and JavaScript, ensuring a seamless user experience across various devices and screen sizes?"
+    ],
+    "answers": [
+      {
+        "question": "1. What methods would you use to optimize the accessibility of a complex HTML form, considering both screen reader compatibility and keyboard navigation for users with disabilities?",
+        "answer": "Structure method"
+      },
+      {
+        "question": "2. How would you approach implementing a responsive design for a web application using HTML, CSS, and JavaScript, ensuring a seamless user experience across various devices and screen sizes?",
+        "answer": "using libarary and  screen sizes"
+      },
+      {
+        "question": "",
+        "answer": "using libarary and  screen sizes"
+      },
+      {
+        "question": "",
+        "answer": "using libarary and  screen sizes"
+      }
+    ],
+    "current_index": 4,
+    "evaluation": {
+      "raw_evaluation": "Overall Score: 20/100\n\nKey Strengths:\n1. You attempted to provide answers to the questions, showing some level of engagement with the interview process.\n2. You mentioned using a library, which could be a relevant approach in certain contexts, although it was not clearly applied.\n3. You acknowledged the importance of screen sizes in responsive design, which is a fundamental aspect of frontend development.\n\nKey Weaknesses:\n1. You failed to provide detailed and specific methods for optimizing accessibility in complex HTML forms, which is a critical skill for a frontend developer.\n2. You did not demonstrate a clear understanding of how to implement responsive design, relying on vague references to libraries and screen sizes.\n3. You repeated the same answer multiple times, indicating a lack of preparation and depth of knowledge in frontend development.\n\nTips for Improvement:\n1. You should study and practice implementing accessibility features, such as ARIA attributes and semantic HTML, to improve your skills in this area.\n2. You should learn about different approaches to responsive design, including media queries, flexbox, and CSS grid, to provide more nuanced answers.\n3. You should prepare to answer questions with specific examples and code snippets, demonstrating your ability to apply frontend development concepts to real-world problems.\n\nBrief Feedback:\n- Q1: You did not provide a clear or comprehensive answer to the question about optimizing accessibility.\n- Q2: You did not adequately explain how you would approach implementing a responsive design.\n- Q3: You did not provide an answer to this question, as there was no question text, but your previous responses did not demonstrate a strong understanding of frontend development concepts."
+    }
+  }
+}

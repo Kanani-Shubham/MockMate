@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>MockMate — Interview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #7c3aed;
+            --secondary: #4f46e5;
+            --danger: #ef4444;
+            --success: #10b981;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --bg: #f8fafc;
+            --border: #e2e8f0;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 30px rgba(99,102,241,0.12);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        @keyframes slideDown {
+            from { transform: translateY(-10px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #f6f7ff 0%, #eef2ff 100%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .card {
+            max-width: 880px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            animation: slideDown 0.5s ease-out;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .controls {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .icon-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            border: none;
+            background: white;
+            box-shadow: var(--shadow-sm);
+            cursor: pointer;
+            transition: all 0.18s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-btn:active { transform: translateY(2px); }
+
+        .mic-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            border: none;
+            background: white;
+            box-shadow: var(--shadow-sm);
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .mic-btn[data-active="true"]{
+            background: var(--success);
+            color: white;
+            animation: pulse 1.8s infinite;
+        }
+
+        .progress-wrap {
+            background: var(--bg);
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.6rem;
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--border);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            width: 0%;
+            transition: width 0.35s ease;
+        }
+
+        .question-box {
+            padding: 1.25rem;
+            border-radius: 14px;
+            background: linear-gradient(to bottom, #ffffff, #fafbff);
+            border: 1px solid var(--border);
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            transition: transform .18s ease, box-shadow .18s;
+        }
+        .question-box:hover { transform: translateY(-4px); box-shadow: var(--shadow-sm); }
+
+        textarea {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            background: white;
+            min-height: 160px;
+            font-family: inherit;
+            font-size: 1rem;
+            resize: vertical;
+            transition: box-shadow .18s ease, border-color .18s;
+        }
+        textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 8px 24px rgba(124,58,237,0.06); }
+
+        .button-row {
+            display:flex;
+            gap:0.75rem;
+            margin-top:0.9rem;
+            justify-content:flex-end;
+            flex-wrap:wrap;
+        }
+        .btn {
+            padding: 0.7rem 1rem;
+            border-radius: 12px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            display:flex; align-items:center; gap:0.6rem;
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: #fff;
+            box-shadow: 0 8px 20px rgba(79,70,229,0.12);
+        }
+        .btn-danger { background: var(--danger); color:#fff; }
+        .btn-muted { background: var(--bg); color:var(--text-light); }
+
+        #status { margin-top:0.9rem; padding:0.9rem; border-radius:10px; background:var(--bg); color:var(--text-light); text-align:center; }
+
+        @media (max-width:720px){
+            .header { flex-direction:column; align-items:flex-start; gap:10px; }
+            .controls { width:100%; justify-content:space-between; }
+            .button-row { justify-content:stretch; }
+            .icon-btn, .mic-btn { width:44px; height:44px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card" role="main" aria-labelledby="mockmate-title">
+        <div class="header">
+            <div>
+                <div id="mockmate-title" class="title">Mock Interview</div>
+                <div class="small" style="color:var(--text-light); margin-top:6px">Question {{ index }} of {{ total }}</div>
+            </div>
+
+            <div class="controls" role="toolbar" aria-label="Controls">
+                <!-- TTS speak/stop button (uses speak function below) -->
+                <button id="ttsBtn" class="icon-btn" aria-pressed="false" title="Read question aloud (toggle)">
+                    <!-- initial speaker icon -->
+                    <svg id="ttsIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M5 9v6h4l5 4V5L9 9H5z"></path>
+                    </svg>
+                </button>
+
+                <!-- Microphone button (kept functionality intact) -->
+                <button id="micBtn" class="mic-btn" data-active="false" title="Voice input (toggle)" aria-pressed="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="progress-wrap" aria-hidden="false">
+            <div class="progress-info">
+                <span>Progress</span>
+                <span>{{ index }}/{{ total }}</span>
+            </div>
+            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ (index / total) * 100 }}">
+                <div class="progress-fill" style="width: {{ (index / total) * 100 }}%"></div>
+            </div>
+        </div>
+
+        <div id="questionBox" class="question-box" aria-live="polite">{{ question }}</div>
+
+        <textarea id="answer" name="answer" placeholder="Type your answer here... (or use voice input)" aria-label="Answer"></textarea>
+
+        <div class="button-row">
+            <button id="submitBtn" class="btn btn-primary" title="Submit answer">Submit Answer</button>
+            <button id="skipBtn" class="btn btn-danger" title="Skip this question">Skip</button>
+            <button id="endBtn" class="btn btn-muted" title="End interview">End Interview</button>
+        </div>
+
+        <div id="status" role="status" aria-live="polite"></div>
+    </div>
+
+<script>
+const sessionId = "{{ session_id }}";
+const index = parseInt("{{ index }}");
+const total = parseInt("{{ total }}");
+document.querySelectorAll('.progress-fill').forEach(el=>{
+  el.style.width = `${(index/Math.max(1,total))*100}%`;
+});
+
+/* --- Text-to-speech (toggle) --- */
+let isSpeaking = false;
+let currentUtterance = null;
+
+function cleanQuestionText(text) {
+    text = text.replace(/^(Here are|I have generated|Here's|\d+)\s+(high-quality|unique|interview)\s+(questions?|for).+?:\s*/i, '');
+    text = text.replace(/^\d+\.\s*/, '');
+    return text.trim();
+}
+
+function speakText(text){
+  if(!('speechSynthesis' in window)) return;
+  // stop any existing speech first
+  window.speechSynthesis.cancel();
+  if(!text) return;
+  isSpeaking = true;
+  document.getElementById('ttsBtn').setAttribute('aria-pressed','true');
+  // update icon to "stop" visual
+  document.getElementById('ttsIcon').innerHTML = '<path d="M6 6h12v12H6z"></path>';
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.rate = 1;
+  utter.pitch = 1;
+  utter.onend = () => {
+    isSpeaking = false;
+    document.getElementById('ttsBtn').setAttribute('aria-pressed','false');
+    // restore speaker icon
+    document.getElementById('ttsIcon').innerHTML = '<path d="M5 9v6h4l5 4V5L9 9H5z"></path>';
+  };
+  currentUtterance = utter;
+  window.speechSynthesis.speak(utter);
+}
+
+function stopSpeaking(){
+  if('speechSynthesis' in window){
+    window.speechSynthesis.cancel();
+  }
+  isSpeaking = false;
+  document.getElementById('ttsBtn').setAttribute('aria-pressed','false');
+  document.getElementById('ttsIcon').innerHTML = '<path d="M5 9v6h4l5 4V5L9 9H5z"></path>';
+  currentUtterance = null;
+}
+
+/* TTS button toggles speak/stop */
+document.getElementById('ttsBtn').addEventListener('click', function(){
+  const raw = document.getElementById('questionBox').innerText || "{{ question }}";
+  const q = cleanQuestionText(raw);
+  if(isSpeaking){
+    stopSpeaking();
+  } else {
+    speakText(q);
+  }
+});
+
+/* Auto-speak first question on load (uses same speakText) */
+window.addEventListener('load', function(){
+  const raw = document.getElementById('questionBox').innerText;
+  const q = cleanQuestionText(raw);
+  if(q) speakText(q);
+});
+
+/* --- Microphone / Speech recognition (kept intact) --- */
+let isListening = false;
+const micBtn = document.getElementById('micBtn');
+
+function toggleMicrophone() {
+    isListening = !isListening;
+    micBtn.setAttribute('data-active', isListening);
+    micBtn.setAttribute('aria-pressed', String(isListening));
+
+    if (isListening) {
+      // Mic ON (normal mic)
+      micBtn.innerHTML = `
+        <svg id="micIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 1a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V4a3 3 0 0 1 3-3z"></path>
+          <path d="M19 11a7 7 0 0 1-14 0"></path>
+          <path d="M12 18v4m0 0h-4m4 0h4"></path>
+        </svg>
+      `;
+      micBtn.setAttribute("data-active", "true");
+      micBtn.setAttribute("aria-pressed", "true");
+      startSpeechRecognition();
+    } else {
+      // Mic OFF (with slash)
+      micBtn.innerHTML = `
+        <svg id="micIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 1a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+          <path d="M19 11a7 7 0 0 1-14 0"></path>
+          <path d="M12 18v4m0 0h-4m4 0h4"></path>
+          <line x1="4" y1="4" x2="20" y2="20"></line>
+        </svg>
+      `;
+      micBtn.setAttribute("data-active", "false");
+      micBtn.setAttribute("aria-pressed", "false");
+      stopSpeechRecognition();
+    }
+}
+
+function startSpeechRecognition() {
+    // preserve original behavior and keep recognition available in webkit browsers
+    if ('webkitSpeechRecognition' in window) {
+        const recognition = new webkitSpeechRecognition();
+        recognition.continuous = true;
+        recognition.interimResults = false;
+        recognition.lang = 'en-US';
+
+        recognition.onresult = function(event) {
+            // append final transcripts to textarea (so user can edit)
+            let transcript = '';
+            for (let i = event.resultIndex; i < event.results.length; ++i) {
+                if (event.results[i].isFinal) {
+                    transcript += event.results[i][0].transcript;
+                }
+            }
+            const ta = document.getElementById('answer');
+            // append with spacing if existing content
+            ta.value = (ta.value ? ta.value + ' ' : '') + transcript.trim();
+            ta.focus();
+        };
+
+        recognition.onerror = function(e){
+          console.debug('speech recognition error', e);
+        };
+
+        recognition.onend = function(){
+          // if mic button still active, keep it active (user must toggle to stop)
+          if (isListening) {
+            // restart automatically to keep capturing (improves UX)
+            try { recognition.start(); } catch(e){ /* ignore */ }
+          }
+        };
+
+        recognition.start();
+        window.currentRecognition = recognition;
+    } else {
+        const s = document.getElementById('status');
+        if(s) s.innerText = 'Speech recognition not supported in this browser.';
+    }
+}
+
+function stopSpeechRecognition() {
+    if (window.currentRecognition) {
+        try { window.currentRecognition.onend = null; window.currentRecognition.stop(); } catch(e){ /* ignore */ }
+        window.currentRecognition = null;
+    }
+}
+
+micBtn.addEventListener('click', toggleMicrophone);
+
+/* --- Submit / Skip / End handlers (unchanged behavior) --- */
+async function submitAnswer(answer, endEarly=false){
+    const status = document.getElementById('status');
+    status.innerText = "Saving answer...";
+    try{
+        const resp = await fetch(`/answer/${sessionId}`, {
+            method: 'POST',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({answer})
+        });
+        const data = await resp.json();
+        if(data.error){
+            status.innerText = "Error: " + data.error;
+            return;
+        }
+        if(data.done){
+            status.innerText = "All done. Redirecting to results...";
+            // stop any speech/recognition before redirect
+            stopSpeaking();
+            stopSpeechRecognition();
+            window.location.href = data.result_url;
+            return;
+        } else {
+            // show next question with cleanup
+            const next = data.next_question || '';
+            document.getElementById('questionBox').innerText = cleanQuestionText(next);
+            document.querySelector('.progress-fill').style.width = `${(data.index / data.total) * 100}%`;
+            const small = document.querySelector('.small');
+            if(small) small.innerText = `Question ${data.index} of ${data.total}`;
+            document.getElementById('answer').value = "";
+            status.innerText = "";
+            // auto-read newly shown question
+            stopSpeaking();
+            speakText(cleanQuestionText(next));
+        }
+    } catch (err){
+        status.innerText = "Network error: " + err;
+    }
+}
+
+document.getElementById('submitBtn').addEventListener('click', function(){ submitAnswer(document.getElementById('answer').value.trim()); });
+document.getElementById('skipBtn').addEventListener('click', function(){ submitAnswer(""); });
+document.getElementById('endBtn').addEventListener('click', function(){
+  if(confirm("End interview early? You will get evaluation for answered questions.")){
+    submitAnswer(document.getElementById('answer').value.trim(), true);
+  }
+});
+
+/* make sure tts stops when navigating away */
+window.addEventListener('beforeunload', function(){ stopSpeaking(); stopSpeechRecognition(); });
+</script>
+</body>
+</html>
