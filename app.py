@@ -153,4 +153,8 @@ def result(session_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    debug = os.environ.get("FLASK_DEBUG", "False").lower() in ("1", "true", "yes")
+    host = "0.0.0.0"
+    print(f"Starting app on {host}:{port} (debug={debug})")
+    app.run(host=host, port=port, debug=debug)
